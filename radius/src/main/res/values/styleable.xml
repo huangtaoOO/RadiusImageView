@@ -1,0 +1,27 @@
+<resources>
+    <!--************** RadiusImageView ****************-->
+    <declare-styleable name="RadiusImageView">
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="selectedMaskColor" format="color"/>
+        <attr name="selectedBorderColor" format="color"/>
+        <attr name="selectedBorderWidth" format="dimension"/>
+        <attr name="cornerRadius" format="dimension"/>
+        <attr name="isOval" format="boolean"/>
+        <attr name="isCircle" format="boolean"/>
+        <attr name="isTouchSelectModeEnabled" format="boolean"/>
+
+        <!-- Round the top-left corner. Ignored if isOval isCircle is used. -->
+        <attr format="boolean" name="roundTopLeft"/>
+        <!-- Round the top-right corner. Ignored if isOval isCircle is used. -->
+        <attr format="boolean" name="roundTopRight"/>
+        <!-- Round the bottom-right corner. Ignored if isOval isCircle is used. -->
+        <attr format="boolean" name="roundBottomRight"/>
+        <!-- Round the bottom-left corner. Ignored if isOval isCircle is used. -->
+        <attr format="boolean" name="roundBottomLeft"/>
+        <!-- A drawable or color to be be used as a placeholder. -->
+        <attr format="reference" name="placeholderImage"/>
+    </declare-styleable>
+
+    <attr name="RadiusImageViewStyle" format="reference"/>
+</resources>
